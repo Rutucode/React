@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .green {
+        color: green;
+      }
+      .red {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div>
+      React will not work on this div, coz react is considering root div for DOM
+      menuplation
+    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const h1Element = React.createElement("h1", [], "Hello World");
+
+      const divElement = React.createElement(
+        "div",
+        {
+          id: "sub-content",
+          className: "green",
+        },
+        [
+          React.createElement("h1", [], "Hello World"),
+          React.createElement("h2", [], "I am Learing React"),
+          React.createElement("div",  
+        {
+          id: "sub-sub-content",
+          className: "red",
+          mom: 'Jyoti', daughter: 'Rutuja'
+        }, [
+           
+          React.createElement("h1", [], "Hi"),
+          React.createElement("h2", [], "My mom is cool"),
+          ]),
+        ]
+      );
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      //rendering heading inside root
+      root.render(divElement);
+    </script>
+  </body>
+</html>

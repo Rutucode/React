@@ -1,0 +1,15 @@
+{
+  "name": "react_practice",
+  "version": "1.0.0",
+  "description": "I am learning react with mom",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "learn_react"
+  ],
+  "author": "rutuja",
+  "license": "ISC"
+}
