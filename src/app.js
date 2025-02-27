@@ -14,13 +14,18 @@
 // root.render(subDivElement);
 
 
-const jsxHeading = (
-    <h1 id="jsxheading" style="color:red;">
-      React is {5 + 5} times better with JSX 🚀
-    </h1>
-  );
-  console.log(jsxHeading);
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header  from "./components/Header";
+
+// const jsxHeading = (
+//     <h1 id="jsxheading" className="red">
+//       React is {5 + 5} times better with JSX 🚀
+//     </h1>
+//   );
+
+  //console.log(jsxHeading);
   const root = ReactDOM.createRoot(document.getElementById("root"));
   
-  root.render(jsxHeading);
+  root.render(<Header />);
 
