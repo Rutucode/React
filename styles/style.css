@@ -48,9 +48,7 @@ h2,
 h3, 
 h4, 
 h5, 
-h6, 
-.bold, 
-strong { 
+h6{ 
 	font-family: 'scandinavianblack', 'Arial', 'Helvetica', sans-serif; 
 	text-transform :uppercase;
 }
@@ -174,6 +172,12 @@ ul{
   letter-spacing: 0%;
   text-align: center;
   color: var(--Cargo-Primary-Blue-B2);
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-heading{
+ font-weight: 900;
 }
 
 /* Center Stage */
