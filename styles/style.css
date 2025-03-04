@@ -146,6 +146,11 @@ ul{
   align-content: center;
   flex-wrap: wrap;
 }
+
+.tabs:hover{
+  background-color: #d2d0d0;
+  }
+
 .display-end{
   display: flex;
   flex-wrap: wrap;

@@ -1,5 +1,4 @@
 import { SPIRITLOGO } from "../utils/constants";
-import Banner from "./banner";
 
 const Header = () => {
   return (
@@ -73,7 +72,7 @@ const Header = () => {
       </div>
     </nav>
 
-    <Banner />
+
     </>   
   );
 };

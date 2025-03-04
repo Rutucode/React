@@ -135,6 +135,10 @@ ul {
   display: flex;
 }
 
+.tabs:hover {
+  background-color: #d2d0d0;
+}
+
 .display-end {
   flex-wrap: wrap;
   place-content: center flex-end;

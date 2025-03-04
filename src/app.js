@@ -16,7 +16,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header  from "./components/Header";
+import Applayout from "./components/Applayout";
+
 
 // const jsxHeading = (
 //     <h1 id="jsxheading" className="red">
@@ -27,5 +28,5 @@ import Header  from "./components/Header";
   //console.log(jsxHeading);
   const root = ReactDOM.createRoot(document.getElementById("root"));
   
-  root.render(<Header />);
+  root.render(<Applayout />);
 

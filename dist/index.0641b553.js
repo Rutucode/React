@@ -2960,8 +2960,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _header = require("./components/Header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
+var _applayout = require("./components/Applayout");
+var _applayoutDefault = parcelHelpers.interopDefault(_applayout);
 // const jsxHeading = (
 //     <h1 id="jsxheading" className="red">
 //       React is {5 + 5} times better with JSX 🚀
@@ -2969,9 +2969,9 @@ var _headerDefault = parcelHelpers.interopDefault(_header);
 //   );
 //console.log(jsxHeading);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _applayoutDefault.default), {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 30,
+    lineNumber: 31,
     columnNumber: 15
 }, undefined));
 
@@ -2980,7 +2980,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default)
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"knC38","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Applayout":"2tX9s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18575,7 +18575,60 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"21dqq"}],"knC38":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"21dqq"}],"2tX9s":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2d3a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2d3a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _header = require("./Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _banner = require("./Banner");
+var _bannerDefault = parcelHelpers.interopDefault(_banner);
+var _centerStage = require("./CenterStage");
+var _centerStageDefault = parcelHelpers.interopDefault(_centerStage);
+const Applayout = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
+                id: "Header"
+            }, void 0, false, {
+                fileName: "src/components/Applayout.js",
+                lineNumber: 8,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bannerDefault.default), {
+                id: "Banner"
+            }, void 0, false, {
+                fileName: "src/components/Applayout.js",
+                lineNumber: 9,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _centerStageDefault.default), {
+                id: "CanterStage"
+            }, void 0, false, {
+                fileName: "src/components/Applayout.js",
+                lineNumber: 10,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c = Applayout;
+exports.default = Applayout;
+var _c;
+$RefreshReg$(_c, "Applayout");
+
+  $parcel$ReactRefreshHelpers$2d3a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Header":"knC38","./Banner":"i3VjK","./CenterStage":"gGt9i","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"knC38":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e807 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -18586,183 +18639,174 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _constants = require("../utils/constants");
-var _banner = require("./banner");
-var _bannerDefault = parcelHelpers.interopDefault(_banner);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _constants.SPIRITLOGO),
-                        className: "logo"
-                    }, void 0, false, {
-                        fileName: "src/components/Header.jsx",
-                        lineNumber: 9,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "nav-bar",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "tab-list",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: "About Us"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 16,
-                                        columnNumber: 11
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: "Services"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 17,
-                                        columnNumber: 11
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: "Location"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 18,
-                                        columnNumber: 11
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: "Contact Us"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 19,
-                                        columnNumber: 11
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Header.jsx",
-                                lineNumber: 15,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "tab-list display-end",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                                width: "24",
-                                                height: "24",
-                                                viewBox: "0 0 24 24",
-                                                fill: "none",
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                        d: "M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z",
-                                                        stroke: "#393939",
-                                                        "stroke-width": "2",
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Header.jsx",
-                                                        lineNumber: 30,
-                                                        columnNumber: 15
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                        d: "M21 21L16.65 16.65",
-                                                        stroke: "#393939",
-                                                        "stroke-width": "2",
-                                                        "stroke-linecap": "square",
-                                                        "stroke-linejoin": "round"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Header.jsx",
-                                                        lineNumber: 37,
-                                                        columnNumber: 15
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/Header.jsx",
-                                                lineNumber: 23,
-                                                columnNumber: 13
-                                            }, undefined),
-                                            "Search"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 22,
-                                        columnNumber: 11
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "tabs",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                                width: "24",
-                                                height: "24",
-                                                viewBox: "0 0 24 24",
-                                                fill: "none",
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                        d: "M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z",
-                                                        stroke: "#393939",
-                                                        "stroke-width": "2",
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Header.jsx",
-                                                        lineNumber: 55,
-                                                        columnNumber: 15
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                        d: "M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z",
-                                                        stroke: "#393939",
-                                                        "stroke-width": "2",
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Header.jsx",
-                                                        lineNumber: 62,
-                                                        columnNumber: 15
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/Header.jsx",
-                                                lineNumber: 48,
-                                                columnNumber: 13
-                                            }, undefined),
-                                            "Track"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Header.jsx",
-                                        lineNumber: 47,
-                                        columnNumber: 11
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Header.jsx",
-                                lineNumber: 21,
-                                columnNumber: 9
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Header.jsx",
-                        lineNumber: 14,
-                        columnNumber: 7
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Header.jsx",
-                lineNumber: 8,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bannerDefault.default), {}, void 0, false, {
-                fileName: "src/components/Header.jsx",
-                lineNumber: 76,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true);
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _constants.SPIRITLOGO),
+                    className: "logo"
+                }, void 0, false, {
+                    fileName: "src/components/Header.jsx",
+                    lineNumber: 8,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "nav-bar",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "tab-list",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: "About Us"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: "Services"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: "Location"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: "Contact Us"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 18,
+                                    columnNumber: 11
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 14,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "tab-list display-end",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            width: "24",
+                                            height: "24",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z",
+                                                    stroke: "#393939",
+                                                    "stroke-width": "2",
+                                                    "stroke-linecap": "round",
+                                                    "stroke-linejoin": "round"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Header.jsx",
+                                                    lineNumber: 29,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M21 21L16.65 16.65",
+                                                    stroke: "#393939",
+                                                    "stroke-width": "2",
+                                                    "stroke-linecap": "square",
+                                                    "stroke-linejoin": "round"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Header.jsx",
+                                                    lineNumber: 36,
+                                                    columnNumber: 15
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Header.jsx",
+                                            lineNumber: 22,
+                                            columnNumber: 13
+                                        }, undefined),
+                                        "Search"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 21,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "tabs",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            width: "24",
+                                            height: "24",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z",
+                                                    stroke: "#393939",
+                                                    "stroke-width": "2",
+                                                    "stroke-linecap": "round",
+                                                    "stroke-linejoin": "round"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Header.jsx",
+                                                    lineNumber: 54,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z",
+                                                    stroke: "#393939",
+                                                    "stroke-width": "2",
+                                                    "stroke-linecap": "round",
+                                                    "stroke-linejoin": "round"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Header.jsx",
+                                                    lineNumber: 61,
+                                                    columnNumber: 15
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Header.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 13
+                                        }, undefined),
+                                        "Track"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 11
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 20,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.jsx",
+                    lineNumber: 13,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Header.jsx",
+            lineNumber: 7,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false);
 };
 _c = Header;
 exports.default = Header;
@@ -18774,7 +18818,17 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/constants":"hB8jg","./banner":"f3zlT"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hB8jg":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "PI", ()=>PI);
+parcelHelpers.export(exports, "SPIRITLOGO", ()=>SPIRITLOGO);
+parcelHelpers.export(exports, "CENTERSTAGE", ()=>CENTERSTAGE);
+const PI = 3.14;
+const SPIRITLOGO = "https://images.ctfassets.net/gjdqq8q2yeys/5FACCqsiOfGsLoQAg7mY7U/613383891d8bac614ce6d31b643bdf05/logo.jpg";
+const CENTERSTAGE = "./public/images/centerstage.png";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18949,19 +19003,11 @@ function registerExportsForReactRefresh(module1) {
 },{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-},{}],"hB8jg":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "PI", ()=>PI);
-parcelHelpers.export(exports, "SPIRITLOGO", ()=>SPIRITLOGO);
-const PI = 3.14;
-const SPIRITLOGO = "https://images.ctfassets.net/gjdqq8q2yeys/5FACCqsiOfGsLoQAg7mY7U/613383891d8bac614ce6d31b643bdf05/logo.jpg";
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f3zlT":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$855c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"i3VjK":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$f420 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$855c.prelude(module);
+$parcel$ReactRefreshHelpers$f420.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -18969,27 +19015,27 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Banner = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        class: "banner",
+        className: "banner",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                class: "banner-heading",
+                className: "banner-heading",
                 children: "PUT YOUR CARGO IN OUR  SAFE AND "
             }, void 0, false, {
-                fileName: "src/components/banner.jsx",
+                fileName: "src/components/Banner.jsx",
                 lineNumber: 6,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                class: "italic",
+                className: "italic",
                 children: "Experienced  Hands"
             }, void 0, false, {
-                fileName: "src/components/banner.jsx",
+                fileName: "src/components/Banner.jsx",
                 lineNumber: 7,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/components/banner.jsx",
+        fileName: "src/components/Banner.jsx",
         lineNumber: 5,
         columnNumber: 9
     }, undefined);
@@ -18999,11 +19045,90 @@ exports.default = Banner;
 var _c;
 $RefreshReg$(_c, "Banner");
 
-  $parcel$ReactRefreshHelpers$855c.postlude(module);
+  $parcel$ReactRefreshHelpers$f420.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gGt9i":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6310 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6310.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _constants = require("../utils/constants");
+const CanterStage = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        class: "center-stage",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                class: "quote-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        class: "quote-heading",
+                        children: "Experience "
+                    }, void 0, false, {
+                        fileName: "src/components/CenterStage.jsx",
+                        lineNumber: 7,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        class: "quote-heading",
+                        children: " Unmatched "
+                    }, void 0, false, {
+                        fileName: "src/components/CenterStage.jsx",
+                        lineNumber: 8,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        class: "italic",
+                        children: "Reliability "
+                    }, void 0, false, {
+                        fileName: "src/components/CenterStage.jsx",
+                        lineNumber: 9,
+                        columnNumber: 7
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/CenterStage.jsx",
+                lineNumber: 6,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                class: "6",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _constants.CENTERSTAGE)
+                }, void 0, false, {
+                    fileName: "src/components/CenterStage.jsx",
+                    lineNumber: 12,
+                    columnNumber: 5
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/CenterStage.jsx",
+                lineNumber: 11,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/CenterStage.jsx",
+        lineNumber: 5,
+        columnNumber: 1
+    }, undefined);
+};
+_c = CanterStage;
+exports.default = CanterStage;
+var _c;
+$RefreshReg$(_c, "CanterStage");
+
+  $parcel$ReactRefreshHelpers$6310.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/constants":"hB8jg"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0641b553.js.map
